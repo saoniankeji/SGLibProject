@@ -66,6 +66,7 @@
      <Compile Include="Assets\GooglePlayGames\Editor\xcode\Sections.cs" />
      <Compile Include="Assets\GooglePlayGames\Editor\xcode\Serializer.cs" />
      <Compile Include="Assets\GooglePlayGames\Editor\xcode\Utils.cs" />
+     <Compile Include="Assets\SGLib\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
      <Compile Include="Assets\SGLib\Editor\PostBuildProcessor.cs" />
      <Compile Include="Assets\SGLib\Editor\Vungle\VunglePostBuilder.cs" />
      <Compile Include="Assets\SGLib\Facebook\Editor\FacebookBuild.cs" />
@@ -95,18 +96,48 @@
      <Compile Include="Assets\SGLib\Standard Assets\Editor\UnityAds\XCodeEditor\XCProject.cs" />
      <Compile Include="Assets\SGLib\Standard Assets\Editor\UnityAds\XCodeEditor\XCSourceFile.cs" />
      <Compile Include="Assets\SGLib\Standard Assets\Editor\UnityAds\XCodeEditor\XCTarget.cs" />
+     <Compile Include="Assets\SGLib\Supergood\SGCustomFont\Editor\BMFontReader.cs" />
+     <Compile Include="Assets\SGLib\Supergood\SGCustomFont\Editor\MyFont.cs" />
+     <Compile Include="Assets\SGLib\Supergood\UI\Editor\SpriteTextEditor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\GlyphInfoDrawer.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\KerningPairDrawer.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\SpriteInfoDrawer.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMP_SettingsEditor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMP_StyleSheetEditor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMP_UIStyleManager.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_ContextMenus.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_CreateObjectMenu.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_CreateSpriteAssetMenu.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_CreateStyleAssetMenu.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_EditorPanel.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_EditorShaderUtilities.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_EditorUtility.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_FontAssetCreatorWindow.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_FontEditor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_FontPlugin.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_SDFMaterialEditor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_SortingLayerHelper.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_SpriteAssetEditor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_TextContainerEditor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_TexturePostProcessor.cs" />
+     <Compile Include="Assets\SGLib\TextMesh Pro\Editor\TMPro_uiEditorPanel.cs" />
+     <Compile Include="Assets\SGLib\codeandweb.com\Editor\TexturePackerImporter.cs" />
      <None Include="Assets\SGLib\Plugins\Android\unityads\res\layout\unityads_view_video_play.xml" />
+     <None Include="Assets\SGLib\Supergood\Shaders\UVAnimation.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-te-rIN\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-az-rAZ\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\cast_strings.xml" />
      <None Include="Assets\GooglePlayGames\Editor\Podfile.txt" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\base_attrs.xml" />
      <None Include="Assets\SGLib\Plugins\Android\unityads\proguard-project.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kk-rKZ\common_strings.xml" />
+     <None Include="Assets\SGLib\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_Bitmap-Mobile.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ur-rPK\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\base_strings.xml" />
@@ -131,19 +162,23 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\common_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mr-rIN\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_google_signin_btn_icon_light.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\base_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_SDF-Surface.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ky-rKG\common_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_SDF.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gu-rIN\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\base_strings.xml" />
+     <None Include="Assets\SGLib\Demigiant\DOTween\DOTween50.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\common_strings.xml" />
@@ -170,6 +205,8 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_google_signin_btn_text_dark.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-is-rIS\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\base_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\base_strings.xml" />
      <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
@@ -184,6 +221,7 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-eu-rES\common_strings.xml" />
+     <None Include="Assets\SGLib\Supergood\Shaders\imageShime.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\common_attrs.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-eu-rES\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\common_strings.xml" />
@@ -200,6 +238,7 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ur-rPK\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\common_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\common_strings.xml" />
@@ -218,6 +257,7 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\base_strings.xml" />
+     <None Include="Assets\SGLib\Demigiant\DOTween\DOTween46.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-is-rIS\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\wallet_strings.xml" />
@@ -225,10 +265,12 @@
      <None Include="Assets\SGLib\Plugins\Android\unityads\res\drawable\unityads_background_button_pause.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\common_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_SDF Overlay.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_google_signin_btn_text_dark.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-gl-rES\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\base_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kk-rKZ\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sq-rAL\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\wallet_strings.xml" />
@@ -243,17 +285,20 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\base_strings.xml" />
+     <None Include="Assets\SGLib\Demigiant\DemiLib\DemiLib.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ta-rIN\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_styles.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\wallet_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_Bitmap.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_plus_signin_btn_text_light.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\wallet_strings.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\Shaders\TMPro_SDF-Mobile.shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\base_strings.xml" />
      <None Include="Assets\SGLib\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_triangle.xml" />
@@ -266,12 +311,14 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_attrs.xml" />
+     <None Include="Assets\SGLib\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ta-rIN\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_plus_signin_btn_text_dark.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\wallet_strings.xml" />
+     <None Include="Assets\SGLib\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\common_strings.xml" />
@@ -286,6 +333,7 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\base_strings.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-kn-rIN\common_strings.xml" />
+     <None Include="Assets\SGLib\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-te-rIN\base_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_google_signin_btn_text_light.xml" />
@@ -347,6 +395,8 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\wallet_colors.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\wallet_strings.xml" />
+     <None Include="Assets\SGLib\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\SGLib\codeandweb.com\Readme.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rAU\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\base_strings.xml" />
@@ -356,9 +406,6 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ml-rIN\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\wallet_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\admob_iap_style.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -373,9 +420,6 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Supergood/Zip/SharpZipLib/net-20/ICSharpCode.SharpZipLib.dll</HintPath>
@@ -406,6 +450,33 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DemiLib/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiEditor">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DemiLib/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
