@@ -421,6 +421,33 @@
  <Reference Include="UnityEditor.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DemiLib/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiEditor">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DemiLib/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Supergood/Zip/SharpZipLib/net-20/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
@@ -450,33 +477,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="DOTween43">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween43.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="DemiLib">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DemiLib/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween50">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween50.dll</HintPath>
- </Reference>
- <Reference Include="DemiEditor">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DemiLib/Editor/DemiEditor.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenProEditor">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenPro">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
- </Reference>
- <Reference Include="DOTween46">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

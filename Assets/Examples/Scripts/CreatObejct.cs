@@ -46,11 +46,11 @@ public class CreatObejct : MonoBehaviour
 
 		extras.Add ("purchaseInfo", purchaseInfo.ToJsonString ());
 
-		SGCross.Init (OnHideUnity, OnInitComplete, HandlePruchaseResult, HandleAuthenticated, extras,OnFacebookInitComplete);
+		SGCross.Init (OnHideUnity, OnInitComplete, HandlePruchaseResult, HandleAuthenticated, extras, OnFacebookInitComplete);
 	}
 
-
-	public void OnFacebookInitComplete(){
+	public void OnFacebookInitComplete ()
+	{
 		Debug.Log ("OnFacebookInitComplete OnHideUnity ... ");
 	}
 
@@ -182,38 +182,38 @@ public class CreatObejct : MonoBehaviour
 
 #endif
 
-//		if (SGConfig.Instant.isLoad) {
-//			if (AdManager.instant.isLoad (AdManager.ADCompany.UNITYAD)) {
-//				UnityADReady.text = "UnityAdReay";
-//			} else {
-//				UnityADReady.text = "UnityAdNotReay";
-//			}	
-//
-//			if (AdManager.instant.isLoad (AdManager.ADCompany.VUNGLE)) {
-//				VugleADReady.text = "VungleAdReay";
-//			} else {
-//				VugleADReady.text = "VungleAdNotReay";
-//			}
-//
-//			if (AdManager.instant.isLoad (AdManager.ADCompany.ADCOLONY)) {
-//				AdColonyReady.text = "AdColonyReady";
-//			} else {
-//				AdColonyReady.text = "AdColonyNotReady";
-//			}
-//	
+		if (SGConfig.Instant.isLoad) {
+			if (AdManager.instant.isLoad (AdManager.ADCompany.UNITYAD)) {
+				UnityADReady.text = "UnityAdReay";
+			} else {
+				UnityADReady.text = "UnityAdNotReay";
+			}	
+
+			if (AdManager.instant.isLoad (AdManager.ADCompany.VUNGLE)) {
+				VugleADReady.text = "VungleAdReay";
+			} else {
+				VugleADReady.text = "VungleAdNotReay";
+			}
+
+			if (AdManager.instant.isLoad (AdManager.ADCompany.ADCOLONY)) {
+				AdColonyReady.text = "AdColonyReady";
+			} else {
+				AdColonyReady.text = "AdColonyNotReady";
+			}
+	
 
 //		if (AdManager.instant.isLoad (AdManager.ADCompany.IAD)) {
-//			IAdReady.text = "IAdReady";
+//			IAdReady.text = "VideoIsRead";
 //		} else {
-//			IAdReady.text = "IAdNotReady";
+//				IAdReady.text = "VideoNotReady";
 //		}
 
-//			if (AdManager.instant.adsVideoController.IsLoad ()) {
-//				IAdReady.text = "IAdReady";
-//			} else {
-//				IAdReady.text = "IAdNotReady";
-//			}
-//		}
+			if (AdManager.instant.VideoIsLoad ()) {
+				IAdReady.text = "VideoIsRead";
+			} else {
+				IAdReady.text = "VideoNotReady";
+			}
+		}
 	}
 
 	void Awake ()
@@ -247,8 +247,7 @@ public class CreatObejct : MonoBehaviour
 	
 	public void ShowIAd ()
 	{
-		//AdManager.instant.showAd (AdManager.ADCompany.IAD);
-		AdManager.instant.adsVideoController.Show ();
+		AdManager.instant.ShowVideo ();
 	}
 
 	#region Optional: Example of Subscribing to All Events

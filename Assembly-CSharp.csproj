@@ -295,18 +295,6 @@
      <Compile Include="Assets\SGLib\Facebook\Scripts\Utils\IFacebookLogger.cs" />
      <Compile Include="Assets\SGLib\Facebook\Scripts\Utils\MiniJson.cs" />
      <Compile Include="Assets\SGLib\Facebook\Scripts\Utils\Utilities.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\ConsoleBase.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\LogView.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\MenuBase.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\AppEvents.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\AppInvites.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\AppLinks.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\AppRequests.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\DialogShare.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\GameGroups.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\GraphRequest.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\MainMenu.cs" />
-     <Compile Include="Assets\SGLib\FacebookExamples\Scripts\SubMenus\Pay.cs" />
      <Compile Include="Assets\SGLib\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
      <Compile Include="Assets\SGLib\GoogleMobileAds\Api\AdPosition.cs" />
      <Compile Include="Assets\SGLib\GoogleMobileAds\Api\AdRequest.cs" />
@@ -880,26 +868,26 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Supergood/Zip/SharpZipLib/net-20/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween43">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween43.dll</HintPath>
- </Reference>
  <Reference Include="DemiLib">
  <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DemiLib/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween50">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
  <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
- <Reference Include="DOTweenPro">
- <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
  <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/wyk/Documents/UnityProject/SGLibProject/Assets/SGLib/Supergood/Zip/SharpZipLib/net-20/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
