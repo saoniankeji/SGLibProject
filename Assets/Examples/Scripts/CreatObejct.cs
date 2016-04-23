@@ -45,6 +45,10 @@ public class CreatObejct : MonoBehaviour
 		purchaseInfo.AddList ("noNeedConsumeProducts", noNeedConsumeProducts);
 
 		extras.Add ("purchaseInfo", purchaseInfo.ToJsonString ());
+		AdManager.InitAdEvent (() => {
+			Debug.Log ("OnAdShowSuceesed  ...... ");}, () => {
+			Debug.Log ("OnAdShowFailed  ......");}, () => {
+			Debug.Log ("OnAdStartShow .....");});
 
 		SGCross.Init (OnHideUnity, OnInitComplete, HandlePruchaseResult, HandleAuthenticated, extras, OnFacebookInitComplete);
 	}
@@ -252,10 +256,10 @@ public class CreatObejct : MonoBehaviour
 
 	#region Optional: Example of Subscribing to All Events
 	
-	void OnEnable ()
-	{
-		AdManager.OnEnableVungle ();
-	}
+//	void OnEnable ()
+//	{
+//		AdManager.OnEnableVungle ();
+//	}
 	
 	void OnDisable ()
 	{
