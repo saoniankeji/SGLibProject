@@ -1,19 +1,25 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Android/AndroidManifest.xml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SGLib/Standard Assets/Editor/UnityAds/Scripts/UnityAdsPostprocessor.cs">
     <Files>
-      <File FileName="Assets/SGLib/Supergood/UI/CommonUI/DialogManager.cs" Line="20" Column="1" />
-      <File FileName="Assets/SGLib/Supergood/UI/CommonUI/UIDialog.cs" Line="1" Column="1" />
-      <File FileName="Assets/Examples/Scripts/TestScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Examples/Scripts/CreatObejct.cs" Line="1" Column="1" />
+      <File FileName="Assets/Examples/Scripts/CreatObejct.cs" Line="262" Column="5" />
       <File FileName="Assets/SGLib/Supergood/SGCross.cs" Line="1" Column="1" />
       <File FileName="Assets/SGLib/Supergood/SGConfig.cs" Line="1" Column="1" />
-      <File FileName="Assets/Plugins/Android/AndroidManifest.xml" Line="60" Column="31" />
+      <File FileName="Assets/Plugins/Android/AndroidManifest.xml" Line="1" Column="1" />
       <File FileName="Assets/SGLib/Facebook/Editor/FacebookBuild.cs" Line="1" Column="1" />
       <File FileName="Assets/SGLib/Plugins/Android/GoogleMobileAdsPlugin/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="Assets/Plugins/Android/res/values/games-ids.xml" Line="10" Column="13" />
-      <File FileName="Assets/SGLib/Plugins/Android/Vungle_lib/AndroidManifest.xml" Line="5" Column="18" />
-      <File FileName="Assets/SGLib/Plugins/Android/unityads/AndroidManifest.xml" Line="17" Column="45" />
+      <File FileName="Assets/Plugins/Android/res/values/games-ids.xml" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Supergood/Ad/AdManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Supergood/Ad/ADS/SGAdColony.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Supergood/Ad/AdBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Supergood/Ad/ADS/SGVungle.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Supergood/Ad/ADS/SGUnityAD.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Standard Assets/UnityAds/Scripts/ShowOptions.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Standard Assets/UnityAds/Scripts/ShowResult.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Plugins/AdColony.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Standard Assets/UnityAds/Scripts/Advertisement.cs" Line="5" Column="4" />
+      <File FileName="Assets/SGLib/Standard Assets/Editor/UnityAds/Scripts/UnityAdsPackageGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/SGLib/Standard Assets/Editor/UnityAds/Scripts/UnityAdsPostprocessor.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
